@@ -1,0 +1,33 @@
+.Borovnica {
+    color: Blue;
+}
+.Banana {
+    color: orange;
+}
+.Kavez {
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+body {
+    background: linear-gradient(skyblue,lime);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.switch-button {
+    display: inline-block;
+    background-color: violet;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+#toggle:checked + .switch-button {
+    background-color: tomato;
+}
